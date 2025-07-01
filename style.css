@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero, .content, .services, .contact-form {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #624801;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  margin-top: 40px;
+}
+/* Style for the service section */
+.service {
+  background-color: #fff8f2; /* soft background */
+  border: 1px solid #f3d9c1; /* light border */
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Style for the heading */
+.service h2 {
+  color: #d1855b; /* elegant warm color */
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+/* Content creation logo */
+.content-logo {
+  width: 35px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+  border-radius: 50%;           /* circular logo */
+  border: 2px solid #4a90e2;    /* different color border */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.service img {
+width: 150px;
+}
+
+.profile-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 120px;         /* You can adjust size */
+  height: 120px;
+  border-radius: 50%;   /* Makes it a perfect circle */
+  border: 3px solid #d1855b;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+/* Style for your name */
+h1 {
+  font-size: 36px;
+  color: #d1855b;           /* elegant warm color */
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+
+/* Style for the tagline */
+.tagline {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Style for the intro paragraph */
+.intro {
+  font-size: 16px;
+  color: #444;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 20px auto;   /* center + add bottom margin */
+  line-height: 1.6;
+}
+
+/* Style for social links */
+.social-links {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #d1855b;
+  font-weight: bold;
+  margin: 0 10px;
+  font-size: 16px;
+  border: 1px solid #d1855b;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #d1855b;
+  color: white;
+}
+
+.about-profile {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.about-pic {
+  width: 140px;                /* adjust size as you like */
+  height: 140px;
+  border-radius: 50%;          /* makes it a circle */
+  border: 3px solid #d1855b;   /* your brand color */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+/* Style for the price table */
+.price-table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 20px auto;    /* center and add bottom margin */
+  border-collapse: collapse;
+  font-size: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.price-table th, .price-table td {
+  padding: 12px 10px;
+  border: 1px solid #f3d9c1;
+  text-align: left;
+}
+
+.price-table th {
+  background-color: #d1855b;   /* elegant warm color for header */
+  color: white;
+  font-weight: bold;
+}
+
+.price-table td {
+  background-color: #fff;
+  color: #333;
+}
+
+.price-table tr:nth-child(even) td {
+  background-color: #fff8f2;   /* subtle alternate row color */
+}
+
